@@ -1,0 +1,17 @@
+{
+  "name": "tranoko-bot",
+  "version": "1.0.0",
+  "description": "Bot Messenger Tranoko — Devis BTP Madagascar",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
